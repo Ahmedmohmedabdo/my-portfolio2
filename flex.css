@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background-color:#001;
+    display: flex;
+}
+ .img-box {
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%; 
+     flex-shrink: 0;
+    border: white 5px solid; 
+    overflow: hidden;
+
+}
+.img-box img{
+    width: 100%;
+  
+}
+.brofile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.brofile h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.manue{
+    background-color: #123;
+    height: 100vh;   
+    transition: .5s;
+    padding: 20px;
+    overflow: hidden;
+    width: 60px;
+
+   
+}
+.manue:hover{
+    width: 260px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 90%;
+}
+ul li a{
+    display: block;
+    padding: 10px;
+    margin: 10px 0px;
+    text-decoration: none;
+    border-radius: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: .5s;
+}
+ul li a:hover, .actev,.data-info .box:hover,td:hover{
+    background-color: #ffffff55;
+}
+.log-out{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background-color: #a00;
+}
+ul li a i{
+    font-size: 30px;
+
+}
+
+/* المتوئ */
+.content{
+    width: 100%;
+    margin: 10px ;
+   
+    
+}
+.titel-info{
+    padding: 12PX;
+    background-color: #0481ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.data-info{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.data-info .box{
+    height: 150px;
+    flex-basis: 150px;
+    background-color: #123;
+    flex-grow: 1;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .3s;
+
+
+}
+.data-info .box i{
+    font-size: 40px;
+}
+
+.data-info .box .data{
+    text-align: center;
+}
+
+.data-info .box .data span{
+    font-size: 1.5rem;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 7px;
+}
+td,th{
+    background-color: #123;
+    height: 40px;
+    border-radius: 10px;
+}
+th{
+    background-color: #0481ff ;
+}
+.v,.cont {
+     padding: 6px;
+     border-radius: 6px;
+}
+.v{
+    background-color: green;
+}
+.cont{
+    background-color: black;
+}
